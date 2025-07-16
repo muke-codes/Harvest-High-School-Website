@@ -1,0 +1,180 @@
+<!-- Create a High School website
+ 1. Share school news & announcements
+
+2. Show calendar & events
+
+3. Provide contact information
+
+4. Highlight achievements (academics, sports, alumni)
+
+5. Showcase images/videos of school life
+
+6. Include a message from the principal or staff
+
+
+
+Step 2: Plan the Pages
+Create a list of main pages you’ll need. For example:
+
+Home
+
+About Us (school history, vision, mission)
+
+Academics (subjects, timetable, staff list)
+
+News & Events
+
+Gallery
+
+Contact
+
+Alumni
+
+
+
+Step 3: Design the Layout (Wireframes)
+Before you write code, sketch or plan how each page will look:
+
+Use pen and paper, or tools like Figma, Canva, or Whimsical
+
+Focus on clean, simple layout and mobile-friendly design
+
+Step 4: Set Up the Codebase
+Use basic web technologies (HTML, CSS, JavaScript). Here's a folder structure:
+
+bash
+Copy code
+/school-website
+│
+├── index.html        # Home page
+├── about.html
+├── academics.html
+├── contact.html
+├── news.html
+├── gallery.html
+│
+├── /css
+│   └── style.css
+│
+├── /js
+│   └── script.js
+│
+└── /images           # Logo, gallery, etc.
+You can later host it for free on GitHub Pages or Netlify.
+
+🔹 Step 5: Build the Website (Starter Code)
+Would you like me to generate a starter template (HTML + CSS + JavaScript) for the homepage?
+
+🔹 Step 6: Hosting and Domain
+Free hosting options:
+
+GitHub Pages (for static sites)
+
+Netlify
+
+Vercel
+
+Custom domain (optional): You can buy a .school or .co.za domain if needed.
+
+🔹 Step 7: Update and Maintain
+You can:
+
+Let teachers or admin send you updates (or train someone to edit content)
+
+Add a Google Form for feedback/contact
+
+Update news/events monthly-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your School Name</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <img src="images/Harvest Logo.png">
+    <h1>Welcome to Harvest High School</h1>
+    <h2>Our Hope Is In God</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="news.html">News & Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h2>Welcome Message</h2>
+      <p>We are proud to be a beacon of academic excellence in our community. Our mission is to provide high-quality education that equips learners with the tools they need to succeed in life.</p>
+    </section>
+
+    <section>
+  <h2>Our Core Values at Harvest</h2>
+  <ul>
+    <li><strong>Honour God</strong> – We put faith and integrity first in everything we do.</li>
+    <li><strong>Be Kind</strong> – We treat everyone with respect, compassion, and empathy.</li>
+    <li><strong>Work Hard</strong> – We believe in giving our best and striving for excellence.</li>
+    <li><strong>Make a Plan</strong> – We approach challenges with creativity, resilience, and responsibility.</li>
+  </ul>
+</section>
+
+
+    <section>
+      <h2>Latest News</h2>
+      <ul>
+        <li>📅 2025 Registration is now open!</li>
+        <li>🏆 Our debate team wins district championships</li>
+        <li>🎓 Matric results available for collection</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>School Opening Ceremony – Jan 15, 2025</li>
+        <li>Science Fair – Mar 10, 2025</li>
+        <li>Sports Day – May 5, 2025</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Principal's Message</h2>
+      <p>Dear Parents and Learners,<br>
+      Welcome to a new year filled with opportunities. At [Your School Name], we strive to create a safe and inspiring environment for all our learners. Together, let's make this year a success!</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <hr>
+    <p>© 2025 Harvest High School. All rights reserved.</p>
+    <p>Contact: info@harvesthighladysmith.co.za | Tel: 012 345 6789</p>
+
+    <div>
+    <p>Follow us on:</p> 
+    <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
+  </p>
+  </div>
+  </footer>
+
+</body>
+</html>
